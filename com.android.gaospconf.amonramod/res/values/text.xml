@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GAOSP Configuration 2 Froyo</string>
+	<!-- Buttons -->
+    <string name="Bdefaults">Set defaults</string>
+    <string name="Bapply">Apply new config</string>
+    <string name="Bok">OK</string>
+    <string name="Bcancel">Cancel</string>
+    <!-- Messages -->
+    <string name="waittitle">Progressing</string>
+    <string name="wait">Please wait...</string>
+    <string name="applied">New config saved and applied. You may have to restart.</string>
+	<string name="swapwarning">You must have an external SD card with a swap partition (Recovery > Format swap+fat32)</string>
+	<string name="defaults">Defaults successfully loaded. Press Apply new config to save.</string>
+	<string name="done">Done and all set.</string>
+	<string name="flashed">Flashed successfully. You have to reboot now!</string>
+	<string name="flash">Flashing kernel...</string>
+	<string name="download">Downloading kernel...</string>
+	<string name="error">Error!</string>
+	<string name="ondemand">CPU</string>
+	<!-- Menu -->
+	<string name="about">About</string>
+	<string name="exit">Exit</string>
+	<!-- Lists -->
+    <string-array name="Ssampling">
+    	<item>Battery</item>
+        <item>Mixed</item>
+        <item>Performance</item>
+    </string-array>
+    <string-array name="Spresets">
+    	<item>Multitasking</item>
+        <item>Android Default</item>
+        <item>Moderate</item>
+        <item>AmonRa_HR´s setting</item>
+        <item>Obihoernchen´s setting</item>
+        <item>Froyo Default</item>
+        <item>Gingerbread Default</item>
+    </string-array>
+        <string-array name="Spresetsvalue">
+    	<item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="Ssamplingvalue">
+    	<item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="Scpufreq">
+        <item>19.2 MHz</item>
+        <item>120.0 MHz (default min)</item>
+        <item>122.88 MHz</item>
+        <item>176.0 MHz</item>
+		<item>245.76 MHz</item>
+		<item>320.0 MHz</item>
+      	<item>352.0 MHz</item>
+      	<item>480.0 MHz</item>
+  		<item>528.0 MHz (default max)</item>
+     	<item>576.0 MHz</item>
+        <item>624.0 MHz</item>
+      	<item>672.0 MHz</item>
+  		<item>720.0 MHz</item>
+  		<item>748.8 MHz</item>
+   		<item>758.4 MHz (DANGER!)</item>
+   		<item>768.0 MHz (DANGER!)</item>
+   		<item>777.6 MHz (DANGER!)</item>
+   		<item>787.2 MHz (DANGER!)</item>
+   		<item>796.8 MHz (DANGER!)</item>
+    </string-array>   
+    <string-array name="Scpufreqvalue">
+        <item>19200</item>
+        <item>120000</item>
+        <item>122880</item>
+        <item>176000</item>
+		<item>245760</item>
+		<item>320000</item>
+      	<item>352000</item>
+      	<item>480000</item>
+  		<item>528000</item>
+     	<item>576000</item>
+        <item>624000</item>
+      	<item>672000</item>
+  		<item>720000</item>
+  		<item>748800</item>
+   		<item>758400</item>
+   		<item>768000</item>
+   		<item>777600</item>
+   		<item>787200</item>
+   		<item>796800</item>
+    </string-array>   
+</resources>
