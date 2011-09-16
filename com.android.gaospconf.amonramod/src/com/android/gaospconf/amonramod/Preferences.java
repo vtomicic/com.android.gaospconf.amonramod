@@ -272,9 +272,9 @@ public class Preferences extends PreferenceActivity {
 			while ((record = BR.readLine()) != null) {
 				if (record.equals("ondemand")) {
 					CPUSampling.setEnabled(true);
-				//	Threshold.setEnabled(true);	
-				//	Bias.setEnabled(true);
-				//	IgnoreNiceLoad.setEnabled(true);
+					Threshold.setEnabled(true);	
+					Bias.setEnabled(true);
+					IgnoreNiceLoad.setEnabled(true);
 				//	((PreferenceGroup) findPreference("CPUgroup")).setTitle(R.string.ondemand);
 				}
 			}
@@ -623,13 +623,13 @@ public class Preferences extends PreferenceActivity {
 			}
 			out.println(" ");
 
-			// Copy powersave bias setting to conf file   ---- PROBLEM MOZDA
+			// Copy powersave bias setting to conf file   
 			// TODO: Powersave Bias
 			out.println("# Powersave bias");
 			out.println("bias=" + Bias.getText());
 			out.println(" ");
 			
-			// Copy Ignore nice load setting to conf file  ---- PROBLEM MOZDA
+			// Copy Ignore nice load setting to conf file  
 			// TODO: Ignore Nice Load
 			out.println("# Ignore nice load");
 			if (IgnoreNiceLoad.isChecked()) {
